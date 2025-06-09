@@ -1,6 +1,20 @@
 /* Глобальные стили для проекта, их можно дополнять и менять по желанию */
 @import url('./variables.css');
 
+@font-face {
+  font-family: 'IBM Plex mono';
+  src: url(../fonts/IBMPlexMono-Regular.woff) format('woff');
+  font-weight: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'IBM Plex mono';
+  src: url(../fonts/IBMPlexMono-Bold.woff) format('woff');
+  font-weight: bold;
+  font-display: swap;
+}
+
 *,
 *::before,
 *::after {
@@ -11,17 +25,11 @@ body {
   min-inline-size: 375px;
   max-inline-size: 1440px;
   margin: 0 auto;
-  padding: 20px;
   font-family: 'IBM Plex mono', sans-serif;
-  background-color: var(--bg-light);
+  background-color: var(--background-color);
   color: var(--text-color);
   line-height: 1.6;
-}
-
-@media (width <= 600px) {
-  body {
-    padding: 10px;
-  }
+  overflow-x: hidden;
 }
 
 section {
@@ -36,7 +44,7 @@ h5,
 h6,
 p {
   font-size: 18px;
-  line-height: 23px;
+  line-height: 23.4px;
   margin: 0;
 }
 
