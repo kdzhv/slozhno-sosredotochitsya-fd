@@ -1,3 +1,20 @@
+@media (prefers-color-scheme: light) {
+  :root,
+  :root.theme-auto {
+    --accent-color: #FF8DCB;
+    --secondary-color: #FFC2E6;
+    --background-color: #FFF1F7;
+    --text-color: #353430;
+    --title-color: #353430;
+    --button-color: #353430;
+    --link-hover-color: rgba(50, 49, 45, 0.4);
+    --subtitle-color: #353430;
+    --rec-color: #353430;
+    --hero-image: url('../images/cover-image-light.png');
+    --hero-text-color: #353430;
+  }
+}
+
 :root.theme-light {
   --accent-color: #FF8DCB;
   --secondary-color: #FFC2E6;
@@ -13,5 +30,5 @@
 }
 
 .theme-light .page {
-  /* Вам также нужно будет написать ряд подобных селекторов */
+  
 }

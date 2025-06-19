@@ -1,3 +1,20 @@
+@media (prefers-color-scheme: dark) {
+  :root,
+  :root.theme-auto {
+    --accent-color: #FF0070;
+    --secondary-color: #DB00FF;
+    --background-color: #000028;
+    --text-color: #F1B2CE;
+    --title-color: #FF0070;
+    --button-color: #FF0070;
+    --link-hover-color: rgba(255, 0, 112, 0.4);
+    --subtitle-color: #000028;
+    --rec-color: #FF0070;
+    --hero-image: url('../images/cover-image-dark.png');
+    --hero-text-color: #000028;
+  }
+}
+
 :root.theme-dark {
   --accent-color: #FF0070;
   --secondary-color: #DB00FF;
