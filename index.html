@@ -47,16 +47,18 @@
       </nav>
       <div class="rec-indicator">REC</div>
       <h1 class="header__title">No focus</h1>
-      <p class="header__text title-decor">
-        Что делать, когда не можешь делать ничего<br>
-        Или почему нам так сложно сконцентрироваться, особенно когда очень надо
-      </p>
+      <div class="header__wrapper">
+        <p class="header__text title-decor">
+          Что делать, когда не можешь делать ничего<br>
+          Или почему нам так сложно сконцентрироваться, особенно когда очень надо
+        </p>
+      </div>
     </header>
 
     <main class="content">
       <section class="content-section">
         <h2 class="content-section__title">Почему сосредоточиться так сложно</h2>
-        <div class="content-section__wrapper">
+        <div class="content-section__wrapper extra-padding-left">
           <article class="content-section__block">
             <h3 class="content-section__subtitle title-decor">Многозадачность</h3>
             <p class="content-section__text">
@@ -82,12 +84,12 @@
           </article>
         </div>
       </section>
-      <section class="focus-tips">
-        <h2 class="focus-tips__title">Что снижает концентрацию внимания?</h2>
-        <div class="focus-tips__wrapper">
-          <article class="focus-tips__block">
-            <h3 class="focus-tips__subtitle title-decor">Многозадачность</h3>
-            <p class="focus-tips__text">
+      <section class="content-section">
+        <h2 class="content-section__title">Что снижает концентрацию внимания?</h2>
+        <div class="content-section__wrapper three-columns full-width">
+          <article class="content-section__block">
+            <h3 class="content-section__subtitle title-decor">Многозадачность</h3>
+            <p class="content-section__text">
               Как концентрация может снижаться из-за… концентрации? Любая стрессовая ситуация 
               (и резко меняющийся мир в целом) заставляет наш мозг постоянно «сканировать» окружающую 
               среду на предмет опасности. Например, читать новости вместо работы. Но быть собранными 
@@ -95,18 +97,18 @@
               ей отдохнуть.
             </p>
           </article>
-          <article class="focus-tips__block">
-            <h3 class="focus-tips__subtitle title-decor">Еда</h3>
-            <p class="focus-tips__text">
+          <article class="content-section__block">
+            <h3 class="content-section__subtitle title-decor">Еда</h3>
+            <p class="content-section__text">
               «Быстрые углеводы» — сахар, белый хлеб, сладости — молниеносно доставляют в мозг энергию 
               и помогают ему лучше работать. Но уходит эта энергия также быстро, как и приходит. 
               А мы в результате попадаем на «углеводные качели»: как только действие «быстрых углеводов» 
               заканчивается, мы чувствуем усталость и сонливость. И хотим ещё больше быстрых углеводов.
             </p>
           </article>
-          <article class="focus-tips__block">
-            <h3 class="focus-tips__subtitle title-decor">Гаджеты</h3>
-            <p class="focus-tips__text">
+          <article class="content-section__block">
+            <h3 class="content-section__subtitle title-decor">Гаджеты</h3>
+            <p class="content-section__text">
               Да-да, это та самая ситуация, когда на экране ноутбука — код, в наушниках — подкаст, а на 
               компьютере фоном — ещё и видео с забавными утятами. В результате мозг пытается переключиться 
               с одной задачи на другую — и просто не может. А чтобы вернуться к состоянию полной концентрации, 
@@ -119,7 +121,7 @@
       <section class="content-section">
         <h2 class="content-section__title">Как концентрироваться лучше, чем золотая рыбка (то есть дольше трёх секунд)</h2>
 
-        <div class="content-section__wrapper">
+        <div class="content-section__wrapper extra-padding-left">
           <h3 class="content-section__subtitle content-section__subtitle--extra-margin title-decor">5 простых (на самом деле не очень) советов</h3>
           <article class="content-section__block">
             <h4 class="content-section__subsection-title title-decor">Представьте небо и облака</h4>
@@ -180,10 +182,11 @@
           <img src="./images/street.png" alt="Улица" class="focus-visuals__item focus-visuals__item--street" />
         </div>
       </section>
-      <footer class="footer decorated-zone">
-        <h1 class="footer__title">focus</h1>
-      </footer>
     </main>
+
+    <footer class="footer decorated-zone">
+      <h2 class="footer__title">focus</h2>
+    </footer>
 
   </body>
 </html>

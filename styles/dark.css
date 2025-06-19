@@ -8,7 +8,7 @@
   --link-hover-color: rgba(255, 0, 112, 0.4);
   --subtitle-color: #000028;
   --rec-color: #FF0070;
-  --hero-image: url('./images/cover-image-dark.png');
+  --hero-image: url('../images/cover-image-dark.png');
   --hero-text-color: #000028;
 }
 

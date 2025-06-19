@@ -32,7 +32,16 @@ body {
   overflow-x: hidden;
 }
 
+main {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
 section {
+  padding: 0 20px;
+}
+
+section:not(:first-of-type) {
   margin-top: 80px;
 }
 
@@ -65,4 +74,20 @@ a {
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
+}
+
+@media (width <= 600px) {
+
+  main {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  section {
+    padding: 0 10px;
+  }
+
+  section:not(:first-of-type) {
+    margin-top: 50px;
+  }
 }
